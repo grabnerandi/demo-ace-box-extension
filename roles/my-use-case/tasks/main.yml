@@ -1,3 +1,7 @@
 ---
+- name: Run demo-all role
+  ansible.builtin.include_role:
+    name: demo-all
+    
 - debug:
     msg: "Hello from your external use case!"
